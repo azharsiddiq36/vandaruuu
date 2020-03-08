@@ -62,7 +62,7 @@ $this->title = "Vandaroe";
             </span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="index.html#carousel-example-generic" role="button"
+        <a class="right carousel-control" href="<?= Yii::$app->request->baseUrl ?>l#carousel-example-generic" role="button"
            data-slide="next">
             <span class="slider-mover-right" aria-hidden="true">
                 <i class="glyphicon glyphicon-menu-right"></i>
