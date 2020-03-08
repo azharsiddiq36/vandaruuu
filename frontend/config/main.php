@@ -36,7 +36,9 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-
+        /*
+         * artinya url kebijakan akan memanggil controller site dan function kebijakan
+         */
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,

@@ -50,5 +50,6 @@ class SiteController extends Controller
     }
     public function actionKebijakan(){
         return $this->render('kebijakan');
+
     }
 }

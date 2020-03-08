@@ -4,7 +4,9 @@ use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use yii\helpers\Url;
 use common\models\Tipe;
-
+/*
+ * di file ini costume semua hal yang ingin di tambahkan pada halaman kebijakan
+ */
 $this->title = "Vandaroe";
 ?>
 
